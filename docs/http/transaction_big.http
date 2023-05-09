@@ -1,0 +1,5 @@
+###
+POST http://localhost:8080/transactions/report
+Content-Type: application/json
+
+< ./transaction_big.json
