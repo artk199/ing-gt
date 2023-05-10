@@ -8,7 +8,7 @@ import pl.artkak.app.VertxHttpServer;
 @Slf4j
 public class KonkursApplication {
 
-    public static final int INSTANCES_OF_HTTP_SERVER_VERTICLES = 20;
+    public static final int INSTANCES_OF_HTTP_SERVER_VERTICLES = 10;
 
     public static void main(String[] args) {
         log.info("Starting 'IngKonkursApp' by Artur K...");

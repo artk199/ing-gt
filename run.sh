@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar app.jar -Xmx3024m -Xms3024m -XX:+UseG1GC
+java -jar target/konkurs-1.0.0-jar-with-dependencies.jar -XX:MaxRAMPercentage=80.0
